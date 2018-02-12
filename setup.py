@@ -8,7 +8,7 @@ setup(
               'masonite.drivers',
               'masonite.managers',
              ],
-    version='0.2.13.3-dev',
+    version='0.2.13.4-dev',
     install_requires=[
         'validator.py==1.2.5',
         'cryptography==2.1.4',
