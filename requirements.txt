@@ -1,18 +1,28 @@
 libsass
-Jinja2
-whitenoise
-python-dotenv
-
 validator.py==1.2.5
-cryptography==2.1.4
 bcrypt==3.1.4
 requests==2.18.4
-boto3==1.5.24
 tldextract==2.2.0
-pusher==1.7.4
-ably==1.0.1
+Jinja2==2.10
+python-dotenv==0.7.1
+passlib==1.7.1
+whitenoise==3.3.1
+bcrypt==3.1.4
+orator==0.9.7
+cryptography==2.1.4
+PyMySQL==0.8.0
+psycopg2==2.7.3.2
+masonite-entry # rq.filter: >=0.0.0,<=0.9.99
 pendulum==1.4.4
 cleo==0.6.5
+tabulate==0.8.2
+watchdog==0.8.3
+waitress==1.1.0
 
-pytest
+boto3==1.5.24
+pusher==1.7.4
+ably==1.0.1
+
+# Tests
+pytest==3.3.1
 coveralls
